@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Hello World!"
+        android:textColor="@color/colorRed" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Hello World!" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/idleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IdlingResource" />
+
+    <Button
+        android:id="@+id/startActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open New Activity" />
+
+    <Button
+        android:id="@+id/createMyObjects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create MyObjects" />
+
+    <Button
+        android:id="@+id/clearMyObjects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear MyObjects" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        app:layoutManager="LinearLayoutManager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+
+</LinearLayout>
